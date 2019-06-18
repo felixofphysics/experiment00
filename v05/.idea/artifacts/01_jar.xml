@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="01:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/01_jar</output-path>
+    <root id="archive" name="01.jar">
+      <element id="module-output" name="01" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../OpenCSV/commons-lang3-3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../OpenCSV/opencsv-4.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/encog-workbench-win-3.0.0/encog-workbench-3.4.0-all.jar" path-in-jar="/" />
+      <element id="library" level="project" name="encog-core-3.4" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/ZombieHealth.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
