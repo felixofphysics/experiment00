@@ -6,7 +6,7 @@ public class Main {
     public static void main(String args[]) {
         // instanciando o componente DataSet
         IDataSet dataset = new DataSetComponent();
-        dataset.setDataSource("src/zombiebig.csv");
+        dataset.setDataSource("src/zombiesmall.csv");
 
 // instanciando o componente paciente
         IPatient aPatient = new Patient();

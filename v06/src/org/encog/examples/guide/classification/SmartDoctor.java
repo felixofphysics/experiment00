@@ -124,12 +124,16 @@ public class SmartDoctor implements IDoctor {
             System.out.println("--------------------------- end of consultation ---------------------------");
 
             for (int a = 0; a < attributes.length-1; a++) {
-                System.out.println("Question: " + responder.ask(attributes[a]));
+                System.out.println("Question: Do you have " + attributes[a] + "?: " + responder.askSymp(attributes[a]));
             }
 
+            System.out.println();
             System.out.println("Disease diagnosis: " + docChosen);
             boolean result = responder.finalAnswer(docChosen);
             System.out.println("Result: " + ((result) ? "I am right =)" : "I am wrong =("));
+            if (!result) {
+                System.out.println("The patient unfortunately died from this bad diagnosis... The doctor is fired and his wife, Karen, left him with the children.");
+            }
 
             // Delete data file ande shut down.
             doctorFile.delete();
