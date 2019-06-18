@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="v06:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/v06_jar</output-path>
+    <root id="archive" name="v06.jar">
+      <element id="module-output" name="v06" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/opencsv-4.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/encog-core-3.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/commons-lang3-3.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
